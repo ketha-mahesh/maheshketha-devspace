@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Download, Mail, Github, Linkedin, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
   return (
@@ -9,9 +11,18 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="animate-fade-in">
-            <div className="flex items-center gap-2 mb-4">
-              <MapPin className="w-4 h-4 text-primary" />
-              <span className="text-muted-foreground">Hyderabad, Telangana</span>
+            {/* Profile Photo */}
+            <div className="flex items-center gap-4 mb-6">
+              <Avatar className="w-20 h-20 border-4 border-primary/20 shadow-lg">
+                <AvatarImage src={profilePhoto} alt="Mahesh Ketha - Full Stack Developer" />
+                <AvatarFallback className="text-2xl font-bold text-primary">MK</AvatarFallback>
+              </Avatar>
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <MapPin className="w-4 h-4 text-primary" />
+                  <span className="text-muted-foreground">Hyderabad, Telangana</span>
+                </div>
+              </div>
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">

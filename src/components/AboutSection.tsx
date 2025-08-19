@@ -43,11 +43,11 @@ const AboutSection = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">3+</span>
+                  <span className="text-2xl font-bold text-primary">📚</span>
                 </div>
                 <div>
-                  <h4 className="font-semibold">Years of Experience</h4>
-                  <p className="text-muted-foreground text-sm">Building modern web applications</p>
+                  <h4 className="font-semibold">Fresh Graduate</h4>
+                  <p className="text-muted-foreground text-sm">Ready to build innovative solutions</p>
                 </div>
               </div>
               

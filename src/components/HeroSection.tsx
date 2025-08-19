@@ -2,20 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Download, Mail, Github, Linkedin, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "/lovable-uploads/257891b4-7e4c-4a13-8e8a-a0fe34a04494.png";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center gradient-section">
+    <section className="min-h-screen flex items-center justify-center premium-bg floating-particles relative overflow-hidden">
       <div className="container mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="animate-fade-in">
             {/* Profile Photo */}
             <div className="flex items-center gap-4 mb-6">
-              <Avatar className="w-20 h-20 border-4 border-primary/20 shadow-lg">
-                <AvatarImage src={profilePhoto} alt="Mahesh Ketha - Full Stack Developer" />
-                <AvatarFallback className="text-2xl font-bold text-primary">MK</AvatarFallback>
+              <Avatar className="w-28 h-28 border-4 border-primary/20 shadow-xl">
+                <AvatarImage src={profilePhoto} alt="Mahesh Ketha - Full Stack Developer" className="object-cover" />
+                <AvatarFallback className="text-3xl font-bold text-primary">MK</AvatarFallback>
               </Avatar>
               <div>
                 <div className="flex items-center gap-2 mb-2">
@@ -40,7 +40,7 @@ const HeroSection = () => {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="gradient-hero glow-effect transition-bounce hover:scale-105">
+              <Button size="lg" className="gradient-hero glow-pulse transition-bounce hover:scale-105">
                 <Download className="w-4 h-4 mr-2" />
                 Download Resume
               </Button>

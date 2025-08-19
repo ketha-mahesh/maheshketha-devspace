@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+Welcome to Mahesh Ketha’s Portfolio Project
+Project info
 
-## Project info
+URL: View My Portfolio
 
-**URL**: https://lovable.dev/projects/ceb8edf6-7de7-42ba-943b-e9d05b9c5d2f
+This portfolio is designed to showcase my journey as a Full Stack Developer. It highlights my skills in Java, Spring Boot, React, Node.js, and databases (MySQL/MongoDB), along with projects, internships, and achievements. The goal of this project is to give recruiters and collaborators a clear picture of my technical expertise and problem-solving ability.
 
-## How can I edit this code?
+How can I edit this code?
 
-There are several ways of editing your application.
+There are several ways to update or improve this project:
 
-**Use Lovable**
+Use Lovable
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ceb8edf6-7de7-42ba-943b-e9d05b9c5d2f) and start prompting.
+Visit the Portfolio Project
+ and use prompts to refine content and design.
 
-Changes made via Lovable will be committed automatically to this repo.
+Work locally in your IDE
 
-**Use your preferred IDE**
+Clone the repository and edit with VS Code or any IDE.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Requires Node.js & npm installed.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+GitHub Codespaces / GitHub edits
 
-**Use GitHub Codespaces**
+Edit directly in GitHub using Codespaces or the online editor.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Changes will sync back to the project.
 
-## What technologies are used for this project?
+What technologies are used for this project?
 
-This project is built with:
+This project is built with a modern stack:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Frontend: React, TypeScript, Tailwind CSS, shadcn-ui
 
-## How can I deploy this project?
+Backend (for showcased projects): Java (Spring Boot), Node.js, Express.js
 
-Simply open [Lovable](https://lovable.dev/projects/ceb8edf6-7de7-42ba-943b-e9d05b9c5d2f) and click on Share -> Publish.
+Databases: MySQL, MongoDB
 
-## Can I connect a custom domain to my Lovable project?
+Other Tools: Docker, GitHub Actions (CI/CD), AWS, Postman
 
-Yes, you can!
+How can I deploy this project?
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The project is currently live on Lovable
+.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Can also be deployed easily to Vercel, Netlify, or GitHub Pages.
+
+Why this project matters
+
+This portfolio is not auto-generated — it reflects my real-world skills and experience:
+
+Internship work (Codeveda Technologies, NullClass).
+
+Full stack projects (E-Commerce Platform, Smart Assistive Device).
+
+Technical skills across Java, Spring Boot, React, Node.js, SQL, MongoDB, Docker, and AWS.
+
+Consistent coding practice (200+ problems solved on LeetCode & CodeChef).
+
+It is designed as a genuine showcase for recruiters and collaborators.
+
+Connect with me
+
+📧 Email: kmahesh3335@gmail.com
+
+📱 Phone: +91 9392765791
+
+💼 LinkedIn: linkedin.com/in/maheshketha
+
+🖥️ GitHub: github.com/ketha-mahesh
+
+⚡ A clean, professional, and recruiter-friendly portfolio built to highlight my journey as a developer.

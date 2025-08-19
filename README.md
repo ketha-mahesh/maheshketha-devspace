@@ -1,7 +1,7 @@
 Welcome to Mahesh Ketha’s Portfolio Project
 Project info
 
-URL: View My Portfolio
+URL: https://maheshketha-devspace.vercel.app/
 
 This portfolio is designed to showcase my journey as a Full Stack Developer. It highlights my skills in Java, Spring Boot, React, Node.js, and databases (MySQL/MongoDB), along with projects, internships, and achievements. The goal of this project is to give recruiters and collaborators a clear picture of my technical expertise and problem-solving ability.
 
@@ -9,10 +9,6 @@ How can I edit this code?
 
 There are several ways to update or improve this project:
 
-Use Lovable
-
-Visit the Portfolio Project
- and use prompts to refine content and design.
 
 Work locally in your IDE
 
